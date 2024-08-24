@@ -10,9 +10,16 @@
 		7DE2A5D72C7A223400A7F86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5D62C7A223400A7F86E /* AppDelegate.swift */; };
 		7DE2A5D92C7A223400A7F86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5D82C7A223400A7F86E /* SceneDelegate.swift */; };
 		7DE2A5DB2C7A223400A7F86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5DA2C7A223400A7F86E /* ViewController.swift */; };
-		7DE2A5DE2C7A223400A7F86E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2A5DD2C7A223400A7F86E /* Base */; };
 		7DE2A5E02C7A223600A7F86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2A5DF2C7A223600A7F86E /* Assets.xcassets */; };
 		7DE2A5E32C7A223600A7F86E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2A5E22C7A223600A7F86E /* Base */; };
+		7DE2A5EC2C7A231700A7F86E /* PressStyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5EB2C7A231700A7F86E /* PressStyleLayer.swift */; };
+		7DE2A5EE2C7A23E000A7F86E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5ED2C7A23E000A7F86E /* UIView+Ext.swift */; };
+		7DE2A5F02C7A245100A7F86E /* PressStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5EF2C7A245100A7F86E /* PressStyleView.swift */; };
+		7DE2A5F42C7A261200A7F86E /* PressStyleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5F32C7A261200A7F86E /* PressStyleTheme.swift */; };
+		7DE2A5F62C7A269B00A7F86E /* ViewCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5F52C7A269B00A7F86E /* ViewCorners.swift */; };
+		7DE2A5F82C7A342E00A7F86E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5F72C7A342E00A7F86E /* Colors.swift */; };
+		7DE2A5FA2C7A34B200A7F86E /* PressStyleThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5F92C7A34B200A7F86E /* PressStyleThemeFactory.swift */; };
+		7DE2A5FC2C7A367300A7F86E /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2A5FB2C7A367300A7F86E /* UIFont+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		7DE2A5D62C7A223400A7F86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DE2A5D82C7A223400A7F86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7DE2A5DA2C7A223400A7F86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DE2A5DD2C7A223400A7F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DE2A5DF2C7A223600A7F86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DE2A5E22C7A223600A7F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DE2A5E42C7A223600A7F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE2A5EB2C7A231700A7F86E /* PressStyleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressStyleLayer.swift; sourceTree = "<group>"; };
+		7DE2A5ED2C7A23E000A7F86E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		7DE2A5EF2C7A245100A7F86E /* PressStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressStyleView.swift; sourceTree = "<group>"; };
+		7DE2A5F32C7A261200A7F86E /* PressStyleTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressStyleTheme.swift; sourceTree = "<group>"; };
+		7DE2A5F52C7A269B00A7F86E /* ViewCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCorners.swift; sourceTree = "<group>"; };
+		7DE2A5F72C7A342E00A7F86E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7DE2A5F92C7A34B200A7F86E /* PressStyleThemeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressStyleThemeFactory.swift; sourceTree = "<group>"; };
+		7DE2A5FB2C7A367300A7F86E /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,30 @@
 		7DE2A5D52C7A223400A7F86E /* PressStyle */ = {
 			isa = PBXGroup;
 			children = (
+				7DE2A5E42C7A223600A7F86E /* Info.plist */,
+				7DE2A5EB2C7A231700A7F86E /* PressStyleLayer.swift */,
+				7DE2A5EF2C7A245100A7F86E /* PressStyleView.swift */,
+				7DE2A5ED2C7A23E000A7F86E /* UIView+Ext.swift */,
+				7DE2A5F32C7A261200A7F86E /* PressStyleTheme.swift */,
+				7DE2A5F52C7A269B00A7F86E /* ViewCorners.swift */,
+				7DE2A5EA2C7A22EE00A7F86E /* PressStyleExample */,
+			);
+			path = PressStyle;
+			sourceTree = "<group>";
+		};
+		7DE2A5EA2C7A22EE00A7F86E /* PressStyleExample */ = {
+			isa = PBXGroup;
+			children = (
 				7DE2A5D62C7A223400A7F86E /* AppDelegate.swift */,
 				7DE2A5D82C7A223400A7F86E /* SceneDelegate.swift */,
 				7DE2A5DA2C7A223400A7F86E /* ViewController.swift */,
-				7DE2A5DC2C7A223400A7F86E /* Main.storyboard */,
 				7DE2A5DF2C7A223600A7F86E /* Assets.xcassets */,
 				7DE2A5E12C7A223600A7F86E /* LaunchScreen.storyboard */,
-				7DE2A5E42C7A223600A7F86E /* Info.plist */,
+				7DE2A5F92C7A34B200A7F86E /* PressStyleThemeFactory.swift */,
+				7DE2A5F72C7A342E00A7F86E /* Colors.swift */,
+				7DE2A5FB2C7A367300A7F86E /* UIFont+Ext.swift */,
 			);
-			path = PressStyle;
+			path = PressStyleExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +156,6 @@
 			files = (
 				7DE2A5E02C7A223600A7F86E /* Assets.xcassets in Resources */,
 				7DE2A5E32C7A223600A7F86E /* Base in Resources */,
-				7DE2A5DE2C7A223400A7F86E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +166,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE2A5F42C7A261200A7F86E /* PressStyleTheme.swift in Sources */,
+				7DE2A5F82C7A342E00A7F86E /* Colors.swift in Sources */,
+				7DE2A5FC2C7A367300A7F86E /* UIFont+Ext.swift in Sources */,
 				7DE2A5DB2C7A223400A7F86E /* ViewController.swift in Sources */,
 				7DE2A5D72C7A223400A7F86E /* AppDelegate.swift in Sources */,
+				7DE2A5F62C7A269B00A7F86E /* ViewCorners.swift in Sources */,
+				7DE2A5EE2C7A23E000A7F86E /* UIView+Ext.swift in Sources */,
 				7DE2A5D92C7A223400A7F86E /* SceneDelegate.swift in Sources */,
+				7DE2A5F02C7A245100A7F86E /* PressStyleView.swift in Sources */,
+				7DE2A5FA2C7A34B200A7F86E /* PressStyleThemeFactory.swift in Sources */,
+				7DE2A5EC2C7A231700A7F86E /* PressStyleLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7DE2A5DC2C7A223400A7F86E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DE2A5DD2C7A223400A7F86E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DE2A5E12C7A223600A7F86E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +325,6 @@
 				INFOPLIST_FILE = PressStyle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,9 +334,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = selinkayar.PressStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,7 +356,6 @@
 				INFOPLIST_FILE = PressStyle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,9 +365,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = selinkayar.PressStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

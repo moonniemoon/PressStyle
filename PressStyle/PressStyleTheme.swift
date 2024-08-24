@@ -5,4 +5,13 @@
 //  Created by Selin Kayar on 24.08.24.
 //
 
-import Foundation
+import UIKit
+
+struct PressStyleTheme {
+    let backgroundColor: UIColor
+    let textColor: UIColor
+    let shadowColor: UIColor
+    let shadowOffset: CGFloat
+    let borderWidth: CGFloat?
+    let borderColor: UIColor?
+}

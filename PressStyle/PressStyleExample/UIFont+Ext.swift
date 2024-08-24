@@ -5,4 +5,14 @@
 //  Created by Selin Kayar on 24.08.24.
 //
 
-import Foundation
+import UIKit
+
+extension UIFont {
+    func rounded() -> UIFont {
+        guard let descriptor = fontDescriptor.withDesign(.rounded) else {
+            return self
+        }
+        
+        return UIFont(descriptor: descriptor, size: pointSize)
+    }
+}
