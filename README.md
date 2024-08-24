@@ -11,7 +11,7 @@ This style can be applied to any `UIView`, including `UIButton`. It features a s
 
 Dear Duo,
 
-If I’ve unintentionally infringed on any copyrights or other rights, I’m really sorry... My work is purely for educational purposes and is inspired by the a-ma-zingg design you’ve created. Please don’t be upset... — I'm just (girl) a huuge admirer trying to learn and improve. 
+If I’ve unintentionally infringed on any copyrights or other rights, I’m really sorry... My work is purely for educational purposes and is inspired by the a-ma-zingg design you’ve created. Please don’t be upset... — I'm just a (girl) huuge admirer trying to learn and improve. 
 
 
 **Professional Disclaimer:**
